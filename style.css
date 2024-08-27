@@ -1,0 +1,173 @@
+body {
+    background-color: #F3F5FC;
+    width: 1440px;
+    height: 1024px;
+    top: 622px;
+    left: -2277px;
+}
+
+/* Estilo da imagem logo */
+.logo {
+    position: absolute;         /* Permite posicionamento absoluto */
+    width: 120px;               /* Largura da imagem logo */
+    height: 48px;               /* Altura da imagem logo */
+    top: 40px;                  /* Distância do topo */
+    left: 40px;                 /* Distância da esquerda */
+    /* O `gap` especificado não se aplica diretamente a imagens, é usado para espaçamento entre itens flexíveis, então é opcional aqui. */
+}
+
+input[type="text"] {
+    margin-top: 80px;
+    margin-left: 240px;
+    width:480px;
+    height: 32px;
+    top: 168px;
+    left: 240px;
+}
+
+input[type="text"]::placeholder {
+    color: #0A3871;          
+    font: inter;   
+    font-weight: 400;
+    size: 32px;  
+    line-height: 48px;         
+}
+
+.container-lateral {
+    width: 400px;                  
+    height: 944px;                 
+    position: absolute;            
+    left: 850px;                  
+    top: 40px;                     
+    background-color: #ffffff;     
+    border-radius: 32px;     
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.imagem-conteiner {
+    width: 336px;                   
+    height: 304px;  
+    top: 283px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+     
+
+                  
+}
+
+.container-lateral h1,
+.container-lateral h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container-lateral h1 {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #343A40;
+}
+
+.container-lateral h2 {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+}
+
+.texto-explicativo {
+    display: flex;
+    margin-top: 340px;
+    margin-left: 300px;
+    
+}
+
+.texto-explicativo h3 {
+    margin: 0;
+}
+
+.texto-explicativo h3 {
+    margin: 0;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #495057;
+    opacity: 0.8; 
+}
+
+.container {
+    display: flex;      
+    gap: 24px;           /* Espaço entre os botões */
+    margin-top: 10px;
+    margin-bottom: 20px; /* Espaço inferior do contêiner (ajustável conforme necessário) */
+    margin-left: 280px;
+}
+
+
+.btn_1 {
+    width: 200px;        /* Largura do botão */
+    height: 55px;        /* Altura do botão */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: #fff;         /* Cor do texto do botão */
+    border: none;        /* Remove a borda padrão do botão */
+    border-radius: 32px; /* Bordas arredondadas */
+    font-size: 16px;     /* Tamanho da fonte do botão */
+    cursor: pointer;     /* Muda o cursor para indicar que é clicável */
+    opacity: 1;          /* Opacidade do botão */
+    transition: background-color 0.3s; /* Transição suave na cor do fundo */
+}
+
+
+.btn_1:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+
+.btn_2 {
+    width: 200px;        
+    height: 55px;        
+    background-color: #1b1b1b; 
+    color: #fff;         
+    border: none;        
+    border-radius: 32px; 
+    font-size: 16px;     
+    cursor: pointer;     
+    opacity: 1;          
+    transition: background-color 0.3s; 
+}
+
+
+.btn_2:hover {
+    background-color: #5e6164; 
+}
+
+footer {
+    position: fixed; 
+    bottom: 0;       
+    width: 100%;        
+    background-color: #ffffff; 
+    color: #495057;   
+    text-align: center; 
+    padding: 0; 
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px;  
+    border-top: 1px solid #ddd; 
+    box-sizing: border-box; 
+}
+
+.caixa-de-texto-vazia {
+    width: 90%;            /* Ocupa a largura total do container lateral */
+    height: 80%;            /* Define a altura como 80% do container */
+    border: 2px solid #ccc; /* Borda da caixa de texto */
+    border-radius: 8px;     /* Bordas arredondadas */
+    padding: 10px;          /* Espaçamento interno */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;        /* Tamanho da fonte */
+    color: #343A40;         /* Cor do texto */
+}
